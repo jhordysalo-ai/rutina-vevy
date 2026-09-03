@@ -1,0 +1,12 @@
+RUTINA SALUDABLE V5 — INSTALACIÓN COMO PWA
+
+1. Abre index.html desde un servidor/local host compatible con HTTPS (por ejemplo, una vista previa/servidor local de Acode).
+2. Abre la página en Chrome/Android.
+3. Acepta las notificaciones cuando el navegador lo pida.
+4. Usa "Añadir a pantalla de inicio" / "Instalar app" desde el menú del navegador.
+5. Abre la app desde su icono.
+
+IMPORTANTE:
+Esta V5 convierte el proyecto en una PWA instalable y añade soporte de Service Worker/offline.
+Una PWA por sí sola no garantiza una alarma exacta cuando Android suspende o cierra totalmente el proceso.
+Para una alarma realmente puntual incluso con la app cerrada, habría que empaquetarla como app Android nativa y usar AlarmManager/WorkManager con los permisos correspondientes.

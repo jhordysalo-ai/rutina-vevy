@@ -1,0 +1,35 @@
+{
+  "name": "Rutina Saludable — Vevy",
+  "short_name": "Rutina Vevy",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FBF6EC",
+  "theme_color": "#1B4332",
+  "description": "Rutina saludable pastel de Vevy 🌷",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
